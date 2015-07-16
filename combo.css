@@ -3,3 +3,14 @@
 {% include css/base.css %}
 {% include css/skeleton.css %}
 {% include css/main.css %}
+
+
+#top { background-image: url("img/lcr.jpg") }
+#top { background-size: 100% 100%; }
+#top { background-repeat: no-repeat; }
+
+.p-player { 
+  top: 30px;
+  padding-left: 10%; 
+  width: 50%; 
+}
