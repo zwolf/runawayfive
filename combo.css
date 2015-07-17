@@ -3,6 +3,7 @@
 {% include css/base.css %}
 {% include css/skeleton.css %}
 {% include css/main.css %}
+{% include css/lightbox.css %}
 
 
 #top { background-image: url("img/lcr.jpg") }
@@ -14,3 +15,27 @@
   padding-left: 10%; 
   width: 50%; 
 }
+
+/* -- PIX -- */
+.image-row {
+  text-align: center; }
+
+@media (min-width: 640px) {
+  .image-row {
+    text-align: center; } }
+
+.example-image-link {
+  display: inline-block;
+  padding: 2px;
+  margin: 0 0.5rem 1rem 0.5rem;
+  background-color: #fff;
+  line-height: 0;
+  border-radius: 4px;
+  transition: background-color 0.5s ease-out; }
+  .example-image-link:hover {
+    background-color: #4ae;
+    transition: none; }
+
+.example-image {
+  width: 7rem;
+  border-radius: 4px; }

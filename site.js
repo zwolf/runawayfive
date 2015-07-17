@@ -1,3 +1,7 @@
+---
+---
+
+{% include js/lightbox.js %}
 
 $.extend($.easing,
 {
@@ -71,6 +75,13 @@ $.extend($.easing,
 
 
 $(document).ready(function (){
+
+    lightbox.option({
+      'fadeDuration': 200,
+      'wrapAround': true,
+      'fitImagesinViewport': false
+    })
+
 
     $('nav li a').navScroller();
 
