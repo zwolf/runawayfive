@@ -7,7 +7,7 @@
 
 
 #top { background-image: url("img/lcr.jpg") }
-#top { background-size: 100% 100%; }
+#top { background-size: cover; }
 #top { background-repeat: no-repeat; }
 
 .p-player { 
@@ -39,3 +39,38 @@
 .example-image {
   width: 7rem;
   border-radius: 4px; }
+
+#top .flex-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top.hero {
+  display: flex;
+  height: 100vh;
+  padding: 0;
+}
+
+#music .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 3vw;
+}
+
+#music {
+  background: url("img/space.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#music .flex-container iframe {
+  padding: 1vw;
+}
+
+nav {
+  background-color: rgba(46,46,46,0.6);
+}
