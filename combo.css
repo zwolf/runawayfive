@@ -67,13 +67,17 @@
   background-size: cover;
 }
 
+#music .flex-container iframe {
+  padding: 1vw;
+}
 #pix {
   background: url("img/space2.jpg") no-repeat center center;
   background-size: cover;
 }
 
-#music .flex-container iframe {
-  padding: 1vw;
+#video{
+  background: url("img/space2.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 nav {
@@ -82,4 +86,5 @@ nav {
 
 .sectiondivider img {
   margin-top: 0;
+  width: 100%;
 }
