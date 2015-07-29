@@ -80,6 +80,10 @@
   background-size: cover;
 }
 
+#about{
+  background: url("img/space2.jpg") no-repeat center center;
+  background-size: cover;
+
 nav {
   background-color: rgba(46,46,46,0.6);
 }
