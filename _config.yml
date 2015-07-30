@@ -19,9 +19,9 @@ title:       "The Runaway Five"
 keywords:    "Runaway Five Chicago chiptune rock"
 description: "The Runaway Five"
 source_link: "http://runawayfive.com"
-favicon:     #put a path like: "img/favicon.ico"
-touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+favicon:     "img/ness.ico" #put a path like: "img/favicon.ico"
+touch_icon:  "img/ness.ico" #put a path like: "img/apple-touch-icon.png"
+google_analytics_key: "UA-65775832-1"
 
 
 ### template colors, used site-wide via css ###

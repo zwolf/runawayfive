@@ -86,21 +86,21 @@ $(document).ready(function (){
     $('nav li a').navScroller();
 
     //section divider icon click gently scrolls to reveal the section
-	$(".sectiondivider").on('click', function(event) {
+    $(".sectiondivider").on('click', function(event) {
     	$('html,body').animate({scrollTop: $(event.target.parentNode).offset().top - 50}, 400, "linear");
-	});
+    });
 
     //links going to other sections nicely scroll
-	$(".container a").each(function(){
-        if ($(this).attr("href").charAt(0) == '#'){
-            $(this).on('click', function(event) {
-        		event.preventDefault();
-                var target = $(event.target).closest("a");
-                var targetHight =  $(target.attr("href")).offset().top
-            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
-            });
-        }
-	});
+    $(".container a").each(function(){
+      if ($(this).attr("href").charAt(0) == '#'){
+        $(this).on('click', function(event) {
+      		event.preventDefault();
+          var target = $(event.target).closest("a");
+          var targetHight =  $(target.attr("href")).offset().top
+         	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
+        });
+      }
+    });
 
 });
 
