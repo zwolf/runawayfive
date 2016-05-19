@@ -5,6 +5,7 @@ host: 0.0.0.0
 safe: false
 
 
+
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
 permalink: / ## disables post output
@@ -33,4 +34,4 @@ colors:
   purple:    '#8877a1'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
-  
+
